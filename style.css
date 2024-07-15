@@ -1,0 +1,131 @@
+body{
+    background: white;
+}
+
+header {
+    background: #d33e95;
+    padding: 15px;
+    font-size: 27px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+.teste{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    margin: 20px;
+}
+
+h3{
+    font-size: 24px;
+
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(131, 8, 59);
+
+}
+
+/* Estilize a seção de exibição de produtos */
+
+.exibir-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    width:50% ; 
+}
+
+.formulario-add{
+    margin-left: 15px; 
+}
+
+/* Estilize os cards de produtos */
+.exibir-produtos .card {
+    text-align: center;
+align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width:200px;
+    margin: 1px 1.5%;
+}
+
+/* Estilize as imagens dos produtos */
+.card img {
+    max-width: 110%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilize os nomes dos produtos */
+p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Estilize os preços dos produtos */
+.card div p {
+    color: #555;
+}
+
+/* Estilize os campos de entrada (inputs) */
+input {
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(131, 8, 59);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(20, 19, 19);
+}
+/* Estilize o texto*/
+label{
+    font-size: 17px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(131, 8, 59);
+
+}
+/* Estilize o botão*/
+button{
+    background-color: #f8f4f4;
+    color: rgb(131, 8, 59);
+    border: 3px solid rgb(131, 8, 59);
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(131, 8, 59);
+    color: #faf6f6;
+}
+h2{
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(131, 8, 59);
+
+}
+
+footer{
+background: #d33e95;
+    padding: 15px;
+    font-size: 27px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+h4{
+    font-size: 15px;
+}
